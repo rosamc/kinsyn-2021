@@ -8,3 +8,14 @@ Once it has been peer-reviewed and published in a journal, this file will be upd
 Please cite accordingly.
 
 Please write to Rosa Martinez-Corral for questions or comments: rosamcorral@hotmail.com or Rosa_MartinezCorral@hms.harvard.edu.
+
+Details:
+
+The modelling calculations are performed in C++, executed from Python using pybind. Writing and compiling the code requires:
+
+1. Eigen.
+2. GeneRegulatoryFunctions repository: https://github.com/rosamc/GeneRegulatoryFunctions
+3. Polynomial solving routines in repository https://github.com/kmnam/polynomials, commit 8c8a8b5c7e57bfb98b3ea5a155039a25c2ecb43.
+
+In addition, functions for analysing results and plotting are in the repository https://github.com/rosamc/scriptssyn.
+
